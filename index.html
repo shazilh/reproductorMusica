@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Reproductor</title>
+  </head>
+  <body>
+    <audio id= "audio1" src="C:\Users\PC\Downloads\Carlos_Vives_Shakira_-_La_Bicicleta_(1to.me).mp3" type="audio/mpeg" >
+    </audio>
+    <button type="button" id="play" onclick="reproduce()">Play</button>
+    <button type="button" id="pause" onclick="pausado()">Pausar</button>
+    <button type="button" id="parar" onclick="parar()">Parar</button>
+
+    <button type="button" id="avanzar" onclick="avanzar()">Avanzar</button>
+    <button type="button" id="retroceder" onclick="retroceder()">Retroceder</button>
+
+    <button type="button" id="volumen1" onclick="volumenSubir()">Volumen+</button>
+    <button type="button" id="volumen2" onclick="volumenBajar()">Volumen-</button>
+     <input type="range"id="progreso" name="points" min="0" max="10">
+    
+
+
+    <script src="assets/js/controles.js">
+    </script>
+  </body>
+</html>
